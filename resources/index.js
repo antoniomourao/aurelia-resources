@@ -1,9 +1,7 @@
 export function configure(config) {
   //config.globalResources([]);
 
+  // jquery datepicker attribute, requires additional configuration on index.html
   config.globalResources(['./attributes/datepicker']);
-  config.globalResources(['./attributes/datetime-picker']);
 
-  config.globalResources(['./elements/loading-indicator']);
-  //config.globalResources(['./elements/jquery-ui-datepicker']);
 }
